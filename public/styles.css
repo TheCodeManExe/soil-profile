@@ -1,54 +1,63 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #fdfaf6;
-    color: #333;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fffbe6;
+    color: #333333;
     margin: 0;
     padding: 20px;
 }
 
 .container {
-    max-width: 700px;
+    max-width: 750px;
     margin: auto;
-    background-color: #fff;
+    background-color: #ffffff;
     padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
 }
 
 .title {
-    font-size: 2em;
-    color: #3e4e2c;
-    margin-bottom: 10px;
+    font-size: 2.4em;
+    color: #2ecc71;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .subtitle {
-    font-size: 1.5em;
-    color: #7a5e3b;
+    font-size: 1.6em;
+    color: #e67e22;
     margin-top: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    text-align: center;
 }
 
 .description {
-    font-size: 1em;
-    line-height: 1.6;
-    margin-bottom: 20px;
+    font-size: 1.1em;
+    line-height: 1.7;
+    margin-bottom: 25px;
+    color: #333333;
+    text-align: center;
 }
 
 .layers {
     list-style-type: none;
     padding-left: 0;
-    line-height: 1.8;
 }
 
 .layers li {
-    background: #f3f1ec;
-    padding: 10px 15px;
-    border-left: 4px solid #7a5e3b;
-    border-radius: 6px;
-    margin-bottom: 10px;
+    background-color: #ecf7ff;
+    padding: 14px 20px;
+    border-left: 6px solid #3498db;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    transition: all 0.2s ease-in-out;
+    font-size: 1.05em;
+}
+
+.layers li:hover {
+    background-color: #d6f0ff;
+    transform: translateY(-3px);
 }
 
 .layers li strong {
-    color: #3e4e2c;
+    color: #e74c3c;
 }
